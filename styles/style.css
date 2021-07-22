@@ -1,3 +1,39 @@
 #nome, #descricao{
     font-family: 'Courier New', Courier, monospace;
 }
+
+body{
+    padding-left: 10px;
+    padding-bottom: 5em;
+    margin-bottom: 10000px;
+    background-color: #B65646;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #F3D2A9;
+}
+a:hover{
+    color: #5B602A;
+}
+
+li:hover{
+    font-size: 2em;
+}
+
+#perfil{
+    border-radius: 100%;
+    width: 200px;
+}
+
+.pais-cidade{
+    font-weight: 600;
+}
+
+.skills{
+    list-style: circle;
+    list-style-position: outside;
+    font-size: 1.5em;
+    font-weight: none;
+}
