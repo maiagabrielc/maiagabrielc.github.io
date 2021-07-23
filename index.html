@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Gabriel Maia</title>
 </head>
 <body>
     <h1>Seja Bem Vindo(a) ao meu Portfólio Web</h1>
-    <a href="#"><img src="images/foto2.png" alt="Foto de perfil" width="300px"></a>
-    <h2>Gabriel Maia</h2>
+    <a href="#"><img src="images/foto2.png" alt="Foto de perfil" width="300px" id="perfil"></a>
+    <h2 id="nome">Gabriel Maia</h2>
     <hr>
     <h3>Menu</h3>
     <p>
-    <ol>
+    <ol id="lista-menu">
         <li><a href="#sobre">Sobre</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#projetos">Projetos</a></li>
@@ -23,22 +25,22 @@
     </p>
     <hr>
     <h3 id="sobre">Sobre Mim</h3>
-    <p>
-        Tenho 28 anos, casado. <br> Sou estudante de desenvolvimento web na <a href="https://www.betrybe.com" target="_blank">Trybe</a> e análise e desenvolvimento de sistemas na UniCesumar.
-        <br>Brasileiro, nascido e residente em <em>Belém do Pará</em>.
+    <p id="descricao">
+        Tenho 28 anos, casado. <br> Sou estudante de desenvolvimento web na <a href="https://www.betrybe.com" target="_blank"><strong>Trybe</strong></a> e análise e desenvolvimento de sistemas na UniCesumar.
+        <br><em class="pais-cidade">Brasileiro</em>, nascido e residente em <em class="pais-cidade">Belém do Pará</em>.
     </p>
     <hr>
     <h3 id="habilidades">Habilidades</h3>
-    <p>
-        <ul><strong>
-            <li>Inglês</li>
-            <li>Resiliência</li>
-            <li>Trabalho em equipe</li>
-            <li>Shell</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul></strong>
+    <p id="lista-habilidades">
+        <ul>
+            <li class="skills">Inglês</li>
+            <li class="skills">Resiliência</li>
+            <li class="skills">Trabalho em equipe</li>
+            <li class="skills">Shell</li>
+            <li class="skills">HTML</li>
+            <li class="skills">CSS</li>
+            <li class="skills">JavaScript</li>
+        </ul>
     </p>
     <hr>
     <h3 id="projetos">Projetos</h3>
@@ -53,5 +55,7 @@
     <h3 id="contato">Contato</h3>
     <a href="https://www.linkedin.com/in/gabriel-carvalho-maia" target="_blank"><img src="images/linkedin.png" alt="Contato linkedin" width="64px"></a>
     <a href="https://github.com/maiagabrielc" target="_blank"><img src="images/GitHub-Mark-Light-120px-plus.png" alt="Contato github" width="64px"></a>
+    <a href="mailto:maiagabrielc@gmail.com" target="_blank"><img src="images/mail.png" width="64px"></a>
+    <a href="https://api.whatsapp.com/send?phone=5591984380332&text=Ol%C3%A1%2C%20vi%20o%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20proposta." target="_blank"><img src="images/whatsapp.png" width="64px"></a>
 </body>
 </html>
